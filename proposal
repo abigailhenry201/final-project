@@ -1,0 +1,41 @@
+# Proposal
+
+## What will (likely) be the title of your project?
+
+Calorie Tracker (maybe something more intersting but idk what could be more telling than that)
+
+## In just a sentence or two, summarize your project. (E.g., "A website that lets you buy and sell stocks.")
+
+A tracker that logs user input of food and reads a file to produce macros of food and total amount of caloires consumed
+
+## In a paragraph or more, detail your project. What will your software do? What features will it have? How will it be executed?
+
+So, it will have maybe a menu where the user can see their food log, add entry, and see their caloric goals (still working on the details). I plan to use python and it was suggested that I use matlibplot i think
+
+## If planning to combine 1051's final project with another course's final project, with which other course? And which aspect(s) of your proposed project would relate to 1051, and which aspect(s) would relate to the other course?
+
+TODO, if applicable
+
+## If planning to collaborate with 1 or 2 classmates for the final project, list their names, email addresses, and the names of their assigned TAs below.
+
+TODO, if applicable
+
+## In the world of software, most everything takes longer to implement than you expect. And so it's not uncommon to accomplish less in a fixed amount of time than you hope.
+
+### In a sentence (or list of features), define a GOOD outcome for your final project. I.e., what WILL you accomplish no matter what?
+
+The basics. It was get an imput food and read that file to output macros and sum up calories. 
+
+### In a sentence (or list of features), define a BETTER outcome for your final project. I.e., what do you THINK you can accomplish before the final project's deadline?
+
+I want it to be kind of official. maybe it could give a caloric recommendation. I also want to see what matplotlib does bc im not familiar with it
+
+### In a sentence (or list of features), define a BEST outcome for your final project. I.e., what do you HOPE to accomplish before the final project's deadline?
+
+full calorie tracker that reads file and output properly. visuals with matplotlib
+
+## In a paragraph or more, outline your next steps. What new skills will you need to acquire? What topics will you need to research? If working with one of two classmates, who will do what?
+
+I need to watch some videos and figure out how matplotlib works. Once i get that down, i can see where i would need to add to make my tracker that way i want. I also would need to find a 
+good file that has a decent amount of food macros so that the tracker is accurate. I really do not want it to be that the user has to enter their food and macros and that amount of calories they eat becuase that 
+would defeat the purpose. I know there will be some file reading in here and a lot of defining fuctions that will have to work on individually. 
