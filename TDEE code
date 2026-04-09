@@ -1,0 +1,53 @@
+gender = input("Are you male or female?").lower()
+
+while gender != "male" and gender != "female":
+    gender = input("Please enter 'male' or 'female'")
+
+age = int(input("Enter your age in years!"))
+
+weight = int(input("Enter your weight in pound!"))
+
+height = int(input("Enter your height in inches"))
+
+
+
+def femaleBMR():
+    return ((10 * (weight/2.205)) + (6.25 * (height*2.54)) - (5.0 * age)) - 161
+
+
+def maleBMR():
+    return ((10 * (weight/2.205)) + (6.25 * (height*2.54)) - (5.0 * age)) + 5
+
+
+def BMR():
+
+    if gender == "female":
+        return femaleBMR()
+    elif gender == "male":
+        return maleBMR()
+
+BMR()
+
+levels = ["sedentary", "light activity", "moderate activity" , "very active" , "extra active"]
+print("Activity Levels:")
+for level in levels:
+    
+    print(level)
+
+activity = input("Please enter activity level!").lower()
+
+activity_level = {"sedentary" : 1.2 , "light activity" : 1.375 , " moderate activity" : 1.55 , "very active" : 1.725 , "extra active": 1.9}
+
+while activity not in activity_level:
+    activity = input("Please enter activity level!")
+
+def TDEE():
+    TDEE = BMR() * activity_level[activity]
+
+    print("Your estimated caloric intake based on your height and weight is:", TDEE)
+
+    
+    print("To maintain your current weight of", weight, "pounds, stick to", TDEE, "a day!"
+
+TDEE()
+    
