@@ -14,5 +14,6 @@ Another problem I faced was getting my user's information and connecting it to t
 but that also messed with my code and I would get errors. My TA came up with the idea of making the user data global so that it could apply to the TDEE without having to
 be in a weird position and potentially undefined. This also helped the structure of the main set up because TDEE fuction was showing before the main screen. 
 
-Also, as scary as it was using a new coding program like matplotlib, I found it to be quite satisfying once I got the hang of it. I used a basic introductor video to help 
-me understand how it works and it wasn't to bad to follow. It took me sooooo long to get the bar graphs to display because I could
+Also, as scary as it was using a new coding program like matplotlib, I found it to be quite satisfying once I got the hang of it. I used a basic introductory video to help me understand how it works and it wasn't to bad to follow. It took me sooooo long to get the bar graphs to display because I could not figrue out how to pull the data from the file and place it according to the date. It took me about two days of looking through Stackflow and going through Copilot to figure out that proper format. Despite how it works now, I'm still not fully satisfied with the results because like I said before the code does not add on to get one final date and the final macro count. 
+
+The best part about creating this Calorie Tracker is that its actually for personal use and was inspired by my mother's need to find a calorie tracker that she understand and can easily track her calories with. I also really like the fact that I understand how to use fuctions. I think that is my favorite Python feature because it makes everything so much easier. 
